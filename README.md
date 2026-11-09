@@ -3,39 +3,46 @@
 - Download the latest binary for your system from Releases section
 - Run the binary
 
+On Linux-based systems:
+```bash
+wget https://github.com/rohith-vp/stone-paper-scissor-rust/releases/download/v0.1/stone_paper_scissor_linux_x86
+chmod +x ./stone_paper_scissor_linux_x86
+./stone_paper_scissor_linux_x86
+```
+
 # Compiling & Running
 
 ## System Requirements
 
-- Rust
-- Cargo
+- `Rust`
+- `Cargo`
 
 ## Compile and run the program for debugging
 
-```rust
+```bash
 git clone git@github.com:rohith-vp/stone-paper-scissor-rust.git
 cd stone-paper-scissor-rust
 
 cargo build
-// On UNIX-based systems
+# On UNIX-based systems
 ./target/debug/stone_paper_scissor
-// On Windows
+# On Windows
 target\debug\stone_paper_scissor
 
-// OR
+# OR
 
 cargo run
 ```
 
 ## Compile and run the program for production
 
-```rust
+```bash
 git clone git@github.com:rohith-vp/stone-paper-scissor-rust.git
 cd stone-paper-scissor-rust/
 
 cargo build --release
-// On UNIX-based systems
+# On UNIX-based systems
 ./target/release/stone_paper_scissor
-// On Windows
+# On Windows
 target\release\stone_paper_scissor
 ```
